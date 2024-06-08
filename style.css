@@ -51,8 +51,84 @@ html,body{
     display: flex;
     width: 25%;
     align-items: center;
-    justify-content: ;
+    justify-content: space-between;
 }
 .rtext p{
     font-size: 12px;
+}
+.bottom{
+    display: flex;
+    width: 100%;
+    min-height: 40vh;
+}
+.b1{
+    width: 30%;
+    min-height: inherit;
+    background-image: url(https://cdn.pixabay.com/photo/2022/09/12/09/15/best-friend-7448937_640.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.b1 h1{
+    text-align: center;
+    padding: 30px;
+}
+.b1 p{
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+.b2{
+    width: 30%;
+    min-height: inherit;
+    display: flex;
+    flex-direction: column;
+}
+.b2 .up{
+    width: 100%;
+    min-height: 20vh;
+    background-image: url(https://thumbor.forbes.com/thumbor/fit-in/980x/https://www.forbes.com/advisor/wp-content/uploads/2023/03/safe_investment.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.b2 .up h1{
+    text-align: center;
+    padding: 30px;
+}
+.b2 .up p{
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+.b2 ,down{
+    width: 100%;
+    min-height: 20vh;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQleV2AWOsVmJbBqfcTDY37wj3arZGS-0XH-g&s);
+    background-size: cover;
+    background-position: center;
+}
+.b2 .down .overlay{
+    position: relative;
+    width: 100%;
+    min-height: 20vh;
+    background-color: rgba(255, 255, 255, 0.39);
+
+}
+.b3{
+    width: 40%;
+    min-height: inherit;
+    background-image: url(https://w0.peakpx.com/wallpaper/127/305/HD-wallpaper-white-flowers-branches-in-white-background-white-aesthetic-thumbnail.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.b3 .overlay{
+    justify-content: right;
+    position: relative;
+    margin-left: 50%;
+    width: 50%;
+    height: 100%;
+    padding: 4vw 3vh;
+}
+.b3 .overlay p{
+    padding: 1.2vh;
+
 }
