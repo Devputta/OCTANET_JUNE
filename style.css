@@ -102,7 +102,7 @@ html,body{
 .b2 ,down{
     width: 100%;
     min-height: 20vh;
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQleV2AWOsVmJbBqfcTDY37wj3arZGS-0XH-g&s);
+    background-image: url(https://t3.ftcdn.net/jpg/05/92/45/74/360_F_592457427_VvrurBRa7bCROvoPk1u3JlLMGwzLwWOi.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -131,4 +131,57 @@ html,body{
 .b3 .overlay p{
     padding: 1.2vh;
 
+}
+@media(max-width:700px){
+    .rtext{
+        flex-direction: column;
+    }
+    .b3 .overlay{
+        width: 100%;
+        margin-left: initial;
+    }
+}
+@media(max-width:500px){
+    .text{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .text h1{
+        font-size: 5vh;
+    }
+    .text .image{
+        height: 2000px;
+        width: 140px;
+        margin-top: 20px;
+    }
+    .rtext{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .rtext p{
+        margin-top: 10px;
+    }
+    .icons{
+        margin-top: 10px;
+    }
+    .bottom{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .b1{
+        width: 100%;
+        min-height: 3ovh;
+    }
+    .b2{
+        width: 100%;
+        min-height: 30vh;
+    }
+    .b2 up{
+        min-height: 40vh;
+    }
+    .b3{
+        width: 100%;
+        min-height: 30vh;
+        background-position: left;
+    }
 }
